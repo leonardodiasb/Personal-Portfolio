@@ -40,7 +40,7 @@ a {
   padding-right: 24px;
 }
 
-section {
+.headline {
   display: flex;
   flex-direction: column;
 }
@@ -95,4 +95,8 @@ ul {
 
 .social > li {
   margin-right: 20px;
+}
+
+.works {
+  display: grid;
 }
