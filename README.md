@@ -1,6 +1,9 @@
 # Personal-Portfolio
 
-This is my Personal Portfolio Page. For now, only the home page in the mobile version is finished. When finished, this project will present more detailed information about myself and will show projects already done by me.
+This is my Personal Portfolio Page. For now, only the home page in the mobile version is finished.
+
+!(https://github.com/leonardodiasb/Personal-Portfolio/blob/Header_Headline-Section/images/firstPage.png)
+
 
 ## Built With
 
