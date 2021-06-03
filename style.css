@@ -100,3 +100,10 @@ ul {
 .works {
   display: grid;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin: 88px 24px 88px 24px;
+}
