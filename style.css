@@ -115,7 +115,7 @@ ul {
 }
 
 h2 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -131,13 +131,13 @@ h2 {
 }
 
 .work-information > li {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin: 0px 6px 0px 6px;
+  margin: 0 6px 0px 6;
 }
 
 .canopy {
@@ -153,7 +153,7 @@ h2 {
 }
 
 .work-description {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -169,7 +169,7 @@ h2 {
 }
 
 .work-tags > li {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -177,7 +177,7 @@ h2 {
   color: #6070ff;
   border-radius: 8px;
   background: #ebebff;
-  margin: 0px 4px;
+  margin: 0 4px;
   align-items: center;
   padding: 4px 12px;
   letter-spacing: 0.03em;
@@ -186,14 +186,14 @@ h2 {
 .work-btn {
   display: flex;
   align-items: center;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
   letter-spacing: 0.03em;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
@@ -207,18 +207,18 @@ h2 {
 .about-btn {
   display: flex;
   align-items: center;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
   letter-spacing: 0.03em;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
-  margin: 22px 0px 0px 24px;
+  margin: 22px 0 0 24px;
 }
 
 .tech-list {
@@ -238,12 +238,12 @@ h2 {
 .tech-title > p {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .arrow-opened {
@@ -279,7 +279,7 @@ h2 {
 .langguages-item {
   display: flex;
   align-items: center;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -288,7 +288,7 @@ h2 {
 }
 
 .langguages-item > img {
-  padding: 9px 0px 9.72px 12px;
+  padding: 9px 0 9.72px 12px;
 }
 
 .langguages-item > p {
