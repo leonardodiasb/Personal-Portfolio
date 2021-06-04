@@ -137,7 +137,7 @@ h2 {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin: 0 6px 0px 6;
+  margin: 0 6px 0 6px;
 }
 
 .canopy {
@@ -270,7 +270,7 @@ h2 {
   padding: 0;
 }
 
-.langguages-list > li {
+.langguages-list > div {
   background-color: #f7f7f9;
   border-radius: 8px;
   margin: 6px 36px;
