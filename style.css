@@ -294,3 +294,18 @@ h2 {
 .langguages-item > p {
   margin-left: 16px;
 }
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
