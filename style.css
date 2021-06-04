@@ -199,3 +199,20 @@ h2 {
   padding: 12px;
   margin: 24px 0px 28px 16px;
 }
+
+.about-btn {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  letter-spacing: 0.03em;
+  background: #ffffff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 22px 0px 0px 24px;
+}
