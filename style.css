@@ -56,7 +56,7 @@ h1 {
   margin: 114px 24px 0 24px;
 }
 
-#subtitle {
+.subtitle {
   position: static;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -69,7 +69,7 @@ h1 {
   margin-right: 24px;
 }
 
-#connect-link {
+.connect-link {
   position: static;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
