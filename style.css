@@ -312,7 +312,6 @@ button:disabled {
   border: 1px solid #c1c7d0;
 }
 
-
 #contact-me {
   background: url("images/contactForm.png");
   background-repeat: no-repeat;
@@ -361,7 +360,6 @@ input[type="text"] {
   font-weight: normal;
   font-size: 17px;
   line-height: 20px;
-  /* margin-left: 16px; */
 }
 
 input[type="email"] {
@@ -370,7 +368,6 @@ input[type="email"] {
   font-weight: normal;
   font-size: 17px;
   line-height: 20px;
-  /* margin-left: 16px; */
 }
 
 textarea {
