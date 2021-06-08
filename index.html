@@ -144,12 +144,12 @@
     <section id="contact-me">
         <h1 id="contact-title">Contact Me</h1>
         <p id="contact-subtitle">If you have an application you are interested in developing, a feature that you need build or a project that needs coding I'd love to help with it</p>
-        <div id="input-box">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="email">
-            <textarea placeholder="write your message here" type="text"></textarea>
-        </div>
-        <button class="contact-btn" type="button">Get In Touch</button>
+        <form id="input-box" action="https://formspree.io/f/xvodrpvj" method="post">
+            <input type="text" placeholder="Name" maxlength="30" name="name" required>
+            <input type="email" placeholder="email" name="email" required>
+            <textarea placeholder="write your message here" type="text" maxlength="500" required></textarea>
+            <button class="contact-btn" type="submit" name="message">Get In Touch</button>
+        </form>
     </section>
 </body>
 </html>

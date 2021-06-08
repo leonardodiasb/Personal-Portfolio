@@ -314,13 +314,18 @@ button:disabled {
 
 
 #contact-me {
+  background: url("images/contactForm.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 58%;
   background-color: #6070ff;
-  /* height: 779px; */
+  height: 779px;
   width: 375px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 100px 0 0 0;
 }
 
 #contact-title {
@@ -347,6 +352,7 @@ input {
   background-color: #fff;
   padding: 0;
   margin: 10px 24px;
+  text-indent: 16px;
 }
 
 input[type="text"] {
@@ -373,6 +379,8 @@ textarea {
   margin: 8px 24px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  text-indent: 16px;
+  padding-top: 15px;
 }
 
 textarea[type="text"] {
@@ -397,6 +405,7 @@ textarea[type="text"] {
   border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
-  margin-top: 12px;
-  margin-right: 196px;
+  margin-top: 14px;
+  margin-bottom: 45px;
+  margin-left: 24px;
 }
