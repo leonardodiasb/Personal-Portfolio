@@ -134,7 +134,7 @@ h2 {
 .work-information {
   display: flex;
   padding: 0;
-  margin: 20px 0 0 10px;
+  margin: 20px 0 0 16px;
 }
 
 .work-information > li {
@@ -144,7 +144,7 @@ h2 {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin: 0 6px 0 6px;
+  margin: 0 12px 0 0;
 }
 
 .canopy {
@@ -172,7 +172,7 @@ h2 {
 .work-tags {
   display: flex;
   padding: 0;
-  margin: 12px 0 0 12px;
+  margin: 12px 0 0 16px;
 }
 
 .work-tags > li {
@@ -184,7 +184,7 @@ h2 {
   color: #6070ff;
   border-radius: 8px;
   background: #ebebff;
-  margin: 0 4px;
+  margin: 0 8px 0 0;
   align-items: center;
   padding: 4px 12px;
   letter-spacing: 0.03em;
@@ -470,9 +470,70 @@ textarea[type="text"] {
     margin-top: 14px;
   }
 
+  #works {
+    justify-content: center;
+  }
+  
   .container {
     width: 1156px;
     height: 496px;
+    flex-direction: row;
+  }
+
+  .rev {
+    flex-direction: row-reverse;
+  }
+  
+  .work-img {
+    margin: 24px 22px 24px 24px;
+    padding: 0;
+  }
+  
+  .container > div {
+    margin-top: 48px;
+    margin-left: 48px;
+    width: 496px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .work-information {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .work-information > li {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+  
+  .canopy {
+    font-weight: 500 !important;
+  }
+  
+  .work-description {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-top: 32px;
+  }
+  
+  .work-tags {
+    margin: 0;
+    padding: 0;
+    margin-top: 24px;
+  }
+  
+  .work-btn {
+    margin: 0;
+    margin-top: 40px;
   }
   
 }
