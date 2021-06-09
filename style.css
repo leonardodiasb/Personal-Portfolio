@@ -6,7 +6,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background: url("images/Ellipse.png") 323px 152.24px no-repeat, url("images/Rectangle.png") 294px 118px no-repeat;
+  background-color: #f7f7f9;
 }
 
 header {
@@ -22,7 +22,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 24px 0 24px 0;
+  padding: 24px 0 24px 0;
+  background-color: #fff;
 }
 
 #logo {
@@ -40,13 +41,18 @@ a {
   padding-right: 24px;
 }
 
-.headline {
+#headline {
   display: flex;
   flex-direction: column;
+  background: url("images/headerShapesMobile.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 718px;
+  background-color: #fff;
+  border-radius: 0 0 0 100px;
 }
 
 h1 {
-  position: static;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -57,7 +63,6 @@ h1 {
 }
 
 .subtitle {
-  position: static;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -70,7 +75,6 @@ h1 {
 }
 
 .connect-link {
-  position: static;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -110,6 +114,7 @@ ul {
   border-radius: 16px;
   box-sizing: border-box;
   margin: 44px 24px;
+  background-color: #fff;
 }
 
 .work-img {
@@ -203,7 +208,8 @@ h2 {
 }
 
 #about {
-  padding-top: 114px;
+  border-radius: 0 100px 0 0;
+  background-color: #fff;
 }
 
 .about-btn {
@@ -405,4 +411,68 @@ textarea[type="text"] {
   margin-top: 14px;
   margin-bottom: 45px;
   margin-left: 24px;
+}
+
+@media (min-width: 600px) {
+  #headline {
+    background: url("images/HeaderBg.png");
+    background-repeat: no-repeat;
+    background-position: 119px 34.6px;
+    background-color: #fff;
+    align-items: center;
+    height: 916px;
+  }
+
+  #headline > .div1 {
+    width: 920px;
+    height: 122px;
+    margin: 12px 0;
+    margin-top: 300px;
+  }
+
+  #headline > .div2 {
+    width: 920px;
+    height: 98px;
+    margin: 12px 0;
+  }
+
+  #headline > .div3 {
+    width: 920px;
+  }
+
+  #headline > ul {
+    width: 920px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    padding: 0;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .connect-link {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social {
+    margin: 0;
+    margin-top: 14px;
+  }
+
+  .container {
+    width: 1156px;
+    height: 496px;
+  }
+  
 }
