@@ -1,8 +1,8 @@
 # Personal-Portfolio
 
-This is my Personal Portfolio Page. For now, only the home page in the mobile version is finished.
+This is my Personal Portfolio Page.
 
-![firstPage](https://github.com/leonardodiasb/Personal-Portfolio/blob/main/images/firstPage.png)
+You can see the work by accessing the following link: https://leonardodiasb.github.io/Personal-Portfolio/
 
 
 ## Built With
