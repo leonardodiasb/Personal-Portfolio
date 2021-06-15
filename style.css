@@ -457,7 +457,7 @@ textarea[type="text"] {
     0% {
       transform: rotate(0deg);
     }
-    
+
     25% {
       transform: rotate(90deg);
     }
@@ -692,7 +692,7 @@ textarea[type="text"] {
     transform: scale(1.05);
     transition: 200ms;
   }
-  
+
   .division-bar {
     margin: 0;
     width: 684px;
