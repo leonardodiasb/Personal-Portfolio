@@ -321,6 +321,7 @@ h2 {
 button:hover {
   background-color: #6070ff;
   color: #fff;
+  transition: 300ms;
 }
 
 button:active {
@@ -449,6 +450,29 @@ textarea[type="text"] {
   #logo {
     margin-left: 155px;
     padding: 0;
+    animation: rotate 400ms ease-in;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    25% {
+      transform: rotate(90deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    75% {
+      transform: rotate(270deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .menu-icon {
@@ -532,11 +556,14 @@ textarea[type="text"] {
 
   .container:hover {
     border: 2px solid #a7aeff;
+    transform: scale(1.03);
+    transition: 300ms;
   }
 
   .container:hover .work-btn {
     background-color: #6070ff;
     color: #fff;
+    transition: 300ms;
   }
 
   .rev {
@@ -661,6 +688,11 @@ textarea[type="text"] {
     margin: 0;
   }
 
+  .languages-item:hover {
+    transform: scale(1.05);
+    transition: 200ms;
+  }
+  
   .division-bar {
     margin: 0;
     width: 684px;
