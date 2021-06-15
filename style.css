@@ -494,19 +494,19 @@ textarea[type="text"] {
     background-position: 119px 34.6px;
     background-color: #fff;
     align-items: center;
-    height: 916px;
+    min-height: 916px;
   }
 
   #headline > .div1 {
     width: 920px;
-    height: 122px;
+    min-height: 122px;
     margin: 12px 0;
     margin-top: 300px;
   }
 
   #headline > .div2 {
     width: 920px;
-    height: 98px;
+    min-height: 98px;
     margin: 12px 0;
   }
 
@@ -550,7 +550,7 @@ textarea[type="text"] {
 
   .container {
     width: 1156px;
-    height: 496px;
+    min-height: 496px;
     flex-direction: row;
   }
 
@@ -629,7 +629,7 @@ textarea[type="text"] {
 
   #about > div {
     width: 447px;
-    height: 392px;
+    min-height: 392px;
     margin: 142px 37px 142px 142px;
   }
 
@@ -700,7 +700,7 @@ textarea[type="text"] {
   }
 
   #contact-me {
-    height: 846px;
+    min-height: 846px;
     background: url("images/contactFormShapes.png");
     background-repeat: no-repeat;
     background-color: #6070ff;
