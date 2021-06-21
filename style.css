@@ -56,6 +56,45 @@ a {
   padding-right: 24px;
 }
 
+#x_btn {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+#mobile_menu {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+#mobile_menu > img {
+  /* opacity: 1; */
+}
+
+#mobile_ul {
+  padding: 0;
+  width: 351px;
+  height: 184px;
+  margin-top: 50px;
+  margin-left: 28px;
+}
+
+#mobile_ul > li > a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
 #headline {
   display: flex;
   flex-direction: column;
