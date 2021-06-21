@@ -74,10 +74,6 @@ a {
   z-index: 1;
 }
 
-#mobile_menu > img {
-  /* opacity: 1; */
-}
-
 #mobile_ul {
   padding: 0;
   width: 351px;
