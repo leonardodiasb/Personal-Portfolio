@@ -67,7 +67,7 @@ a {
   top: 0;
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   display: none;
   flex-direction: column;
   background-color: #6070ff;
@@ -93,6 +93,7 @@ a {
 }
 
 #headline {
+  width: auto;
   display: flex;
   flex-direction: column;
   background: url("images/headerShapesMobile.png");
@@ -170,6 +171,8 @@ ul {
 
 .work-img {
   margin: 16px 16px 0 16px;
+  max-width: 100%;
+  height: auto;
 }
 
 h2 {
@@ -315,6 +318,7 @@ h2 {
 
 .division-bar {
   margin: 0 24px 0 24px;
+  max-width: 80%;
 }
 
 #last-bar {
@@ -400,9 +404,13 @@ button:disabled {
   text-align: center;
 }
 
+form {
+  max-width: 100%;
+}
+
 input {
   height: 48px;
-  width: 327px;
+  width: 85vw;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background-color: #fff;
@@ -428,7 +436,7 @@ input[type="email"] {
 }
 
 textarea {
-  width: 327px;
+  width: 85vw;
   height: 170px;
   margin: 8px 24px;
   border: 1px solid #cfd8dc;
@@ -731,7 +739,7 @@ textarea[type="text"] {
 
   .division-bar {
     margin: 0;
-    width: 684px;
+    width: 80vw;
     height: 1px;
   }
 
