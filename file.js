@@ -314,9 +314,8 @@ for (let i = 0; i < workBtn.length; i += 1) {
 }
 
 const form = document.getElementById('input-box');
-const email = form.elements['email'];
+const { email } = form.elements;
 const error = document.getElementById('email-error');
-
 
 function validadeEmail(input) {
   if (input === input.toLowerCase()) {
@@ -332,4 +331,4 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     error.style = 'opacity: 1';
   }
-})
+});
