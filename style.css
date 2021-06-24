@@ -500,7 +500,6 @@ textarea[type="text"] {
   top: 0;
   background: white;
   padding: 0 16px;
-  /* display: none; */
   flex-direction: column;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -854,7 +853,7 @@ textarea[type="text"] {
   .popup-content {
     flex-direction: row;
   }
-  
+
   .popup-top {
     margin-top: 24px;
   }
@@ -863,8 +862,6 @@ textarea[type="text"] {
     margin-top: 36px;
   }
 }
-
-
 
 @media (min-width: 1200px) {
   .popup-elements {
