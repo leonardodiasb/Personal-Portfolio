@@ -209,7 +209,7 @@ for (let i = 0; i < workProjects.length; i += 1) {
 
 const workBtn = document.querySelectorAll('.work-btn');
 
-for (let i = 0; i < workBtn.length; i+=1) {
+for (let i = 0; i < workBtn.length; i += 1) {
   workBtn[i].addEventListener('click', () => {
     const description = document.querySelectorAll('.work-description');
     const workImg = document.querySelectorAll('.work-img');
@@ -265,15 +265,15 @@ for (let i = 0; i < workBtn.length; i+=1) {
     popupDescription.style = 'margin-left: 0;';
     popupDescription.innerHTML = description[i].innerHTML;
     popupContent.appendChild(popupDescription);
-    const popupElements = document.createElement('div')
+    const popupElements = document.createElement('div');
     popupContent.appendChild(popupElements);
     popupElements.classList.add('popup-elements');
     const popupTags = document.createElement('ul');
     popupElements.appendChild(popupTags);
     popupTags.classList.add('work-tags');
-    popupTags.style = "margin-left: 0;";
-    for (var j = 0; j < tags[i].childNodes.length; j += 1) {
-      const tagElement = document.createElement('li')
+    popupTags.style = 'margin-left: 0;';
+    for (let j = 0; j < tags[i].childNodes.length; j += 1) {
+      const tagElement = document.createElement('li');
       tagElement.innerHTML = tags[i].childNodes[j].innerHTML;
       popupTags.appendChild(tagElement);
     }
@@ -296,8 +296,8 @@ for (let i = 0; i < workBtn.length; i+=1) {
     seeSourceIcon.src = './images/SeeSourceIcon.png';
     popBtn2.appendChild(seeSourceIcon);
     document.body.appendChild(popupSection);
-    
-    closePopup.addEventListener('click', function () {
+
+    closePopup.addEventListener('click', () => {
       popupSection.remove();
       popup.remove();
       popupTop.remove();
@@ -315,6 +315,6 @@ for (let i = 0; i < workBtn.length; i+=1) {
       popupButtons.remove();
       popBtn1.remove();
       popBtn2.remove();
-    })
+    });
   });
 }
