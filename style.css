@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+#portfolio {
+  padding: 0;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -201,7 +205,7 @@ h2 {
   margin: 0 12px 0 0;
 }
 
-.canopy {
+.business {
   color: #344563 !important;
 }
 
@@ -258,7 +262,7 @@ h2 {
   border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
-  margin: 24px 182px 28px 16px;
+  margin: 24px 0 28px 16px;
 }
 
 #about {
@@ -476,6 +480,65 @@ textarea[type="text"] {
   display: none;
 }
 
+.popup-section {
+  background-color: rgba(128, 128, 128, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+  justify-content: center;
+  z-index: 5;
+  box-sizing: content-box;
+}
+
+.modal {
+  position: relative;
+  width: 90%;
+  margin: 5%;
+  top: 0;
+  background: white;
+  padding: 0 16px;
+  /* display: none; */
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  z-index: 10;
+  min-height: max-content;
+  height: max-content;
+}
+
+.popup-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popup-image {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+}
+
+.popup-elements {
+  min-width: 50%;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 1080px) {
   .work-btn {
     margin: 0;
@@ -615,6 +678,7 @@ textarea[type="text"] {
   }
 
   .work-img {
+    width: 100%;
     margin: 24px 22px 24px 24px;
     padding: 0;
   }
@@ -644,7 +708,7 @@ textarea[type="text"] {
     font-weight: normal;
   }
 
-  .canopy {
+  .business {
     font-weight: 500 !important;
   }
 
@@ -780,5 +844,36 @@ textarea[type="text"] {
   .contact-btn {
     margin: 0;
     margin-top: 27px;
+  }
+
+  .modal {
+    width: 70%;
+    margin: 5% 15%;
+  }
+
+  .popup-content {
+    flex-direction: row;
+  }
+  
+  .popup-top {
+    margin-top: 24px;
+  }
+
+  .popup-image {
+    margin-top: 36px;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .popup-elements {
+    min-width: 40%;
+    margin-left: 20px;
+  }
+
+  .modal {
+    width: 60%;
+    margin: 3% 20%;
   }
 }
