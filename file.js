@@ -283,18 +283,12 @@ for (let i = 0; i < workBtn.length; i += 1) {
     const popBtn1 = document.createElement('button');
     popBtn1.style = 'margin-left: 0;';
     popBtn1.classList.add('work-btn');
-    popBtn1.innerHTML = 'See live  .';
+    popBtn1.innerHTML = 'See live';
     popupButtons.appendChild(popBtn1);
-    const seeLiveIcon = document.createElement('img');
-    seeLiveIcon.src = './images/SeeLiveIcon.png';
-    popBtn1.appendChild(seeLiveIcon);
     const popBtn2 = document.createElement('button');
     popBtn2.classList.add('work-btn');
-    popBtn2.innerHTML = 'See Source  .';
+    popBtn2.innerHTML = 'See Source';
     popupButtons.appendChild(popBtn2);
-    const seeSourceIcon = document.createElement('img');
-    seeSourceIcon.src = './images/SeeSourceIcon.png';
-    popBtn2.appendChild(seeSourceIcon);
     document.body.appendChild(popupSection);
 
     closePopup.addEventListener('click', () => {
