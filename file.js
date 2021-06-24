@@ -312,3 +312,24 @@ for (let i = 0; i < workBtn.length; i += 1) {
     });
   });
 }
+
+const form = document.getElementById('input-box');
+const email = form.elements['email'];
+const error = document.getElementById('email-error');
+
+
+function validadeEmail(input) {
+  if (input === input.toLowerCase()) {
+    return true;
+  }
+  return false;
+}
+
+form.addEventListener('submit', (e) => {
+  if (validadeEmail(email.value)) {
+    error.style = 'opacity: 0';
+  } else {
+    e.preventDefault();
+    error.style = 'opacity: 1';
+  }
+})
