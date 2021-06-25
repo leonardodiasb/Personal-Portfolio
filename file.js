@@ -332,3 +332,4 @@ form.addEventListener('submit', (e) => {
     error.style = 'opacity: 1';
   }
 });
+
