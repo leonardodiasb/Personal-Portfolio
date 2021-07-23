@@ -87,6 +87,10 @@ a {
   margin-left: 28px;
 }
 
+.work-btn > a {
+  color: inherit;
+}
+
 #mobile_ul > li > a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -264,10 +268,6 @@ h2 {
   border-radius: 8px;
   padding: 12px;
   margin: 24px 0 28px 16px;
-}
-
-.work-btn > a {
-  color: inherit;
 }
 
 #about {
