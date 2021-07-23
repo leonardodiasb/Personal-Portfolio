@@ -266,6 +266,10 @@ h2 {
   margin: 24px 0 28px 16px;
 }
 
+.work-btn > a {
+  color: inherit;
+}
+
 #about {
   border-radius: 0 100px 0 0;
   background-color: #fff;
@@ -530,7 +534,7 @@ textarea[type="text"] {
 }
 
 .popup-elements {
-  min-width: 50%;
+  min-width: 46%;
 }
 
 .popup-buttons {
@@ -709,7 +713,8 @@ textarea[type="text"] {
 
   .container > div {
     margin-top: 48px;
-    margin-left: 48px;
+    margin-left: 40px;
+    margin-right: 14px;
     width: 496px;
   }
 
@@ -894,12 +899,13 @@ textarea[type="text"] {
 
 @media (min-width: 1200px) {
   .popup-elements {
-    min-width: 40%;
+    min-width: 46%;
     margin-left: 20px;
   }
 
   .modal {
-    width: 34%;
+    min-width: 550px;
+    max-width: 34%;
     margin: 1% 33%;
     max-height: 100vh;
   }

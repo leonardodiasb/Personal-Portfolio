@@ -40,43 +40,13 @@ contact.addEventListener('click', () => {
 const workProjects = [
   {
     id: 1,
-    imgSrc: './images/SnapshootPortfolio@2x.png',
-    imgSrcSet: './images/SnapshootPortfolio@2x.png 295w, ./images/SnapshootPortfolio@2x.png 544w',
-    title: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    imgSrc: './images/To-Do-SS.png',
+    imgSrcSet: './images/To-Do-SS.png 295w, ./images/To-Do-SS.png 544w',
+    title: 'To-Do-List',
+    description: 'This is a To-Do-List page which you can create tasks, change tasks order, delete tasks, mark tasks as completed and delete all completed tasks.',
     technologies: ['html', 'css', 'javascript'],
-    linkLive: 'https://leonardodiasb.github.io/Personal-Portfolio/',
-    linkSource: 'https://github.com/leonardodiasb/Personal-Portfolio',
-  },
-  {
-    id: 2,
-    imgSrc: './images/SnapshootPortfolio(1).png',
-    imgSrcSet: './images/SnapshootPortfolio(1).png 295w, ./images/SnapshootPortfolio(1).png 544w',
-    title: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html', 'css', 'javascript'],
-    linkLive: 'https://leonardodiasb.github.io/Personal-Portfolio/',
-    linkSource: 'https://github.com/leonardodiasb/Personal-Portfolio',
-  },
-  {
-    id: 3,
-    imgSrc: './images/SnapshootPortfolio(2).png',
-    imgSrcSet: './images/SnapshootPortfolio(2).png 295w, ./images/SnapshootPortfolio(2).png 544w',
-    title: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html', 'css', 'javascript'],
-    linkLive: 'https://leonardodiasb.github.io/Personal-Portfolio/',
-    linkSource: 'https://github.com/leonardodiasb/Personal-Portfolio',
-  },
-  {
-    id: 4,
-    imgSrc: './images/SnapshootPortfolio(3).png',
-    imgSrcSet: './images/SnapshootPortfolio(3).png 295w, ./images/SnapshootPortfolio(3).png 544w',
-    title: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html', 'css', 'javascript'],
-    linkLive: 'https://leonardodiasb.github.io/Personal-Portfolio/',
-    linkSource: 'https://github.com/leonardodiasb/Personal-Portfolio',
+    linkLive: 'https://leonardodiasb.github.io/To-Do-List/',
+    linkSource: 'https://github.com/leonardodiasb/To-Do-List',
   },
 ];
 
@@ -283,12 +253,18 @@ for (let i = 0; i < workBtn.length; i += 1) {
     const popBtn1 = document.createElement('button');
     popBtn1.style = 'margin-left: 0;';
     popBtn1.classList.add('work-btn');
-    popBtn1.innerHTML = 'See live';
     popupButtons.appendChild(popBtn1);
+    const popA1 = document.createElement('a');
+    popA1.innerHTML = 'See live';
+    popA1.href = workProjects[i].linkLive;
+    popBtn1.appendChild(popA1);
     const popBtn2 = document.createElement('button');
     popBtn2.classList.add('work-btn');
-    popBtn2.innerHTML = 'See Source';
     popupButtons.appendChild(popBtn2);
+    const popA2 = document.createElement('a');
+    popA2.innerHTML = 'See Source';
+    popA2.href = workProjects[i].linkSource;
+    popBtn2.appendChild(popA2);
     document.body.appendChild(popupSection);
 
     closePopup.addEventListener('click', () => {
