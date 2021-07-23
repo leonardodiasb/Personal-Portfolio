@@ -315,6 +315,8 @@ for (let i = 0; i < workBtn.length; i += 1) {
 
 const form = document.getElementById('input-box');
 const { email } = form.elements;
+const name = document.getElementById('contact-name');
+const message = document.getElementById('contact-text');
 const error = document.getElementById('email-error');
 
 function validadeEmail(input) {
@@ -332,3 +334,43 @@ form.addEventListener('submit', (e) => {
     error.style = 'opacity: 1';
   }
 });
+
+const inputsArray = [email, name, message];
+
+function saveFormDataToLocalStorage(name, email, message) {
+  const formInfo = {
+    name: name.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('formInfo', JSON.stringify(formInfo));
+}
+
+window.addEventListener('load', () => {
+  if (JSON.parse(localStorage.getItem('formInfo'))) {
+    const { name, email, message } = JSON.parse(localStorage.getItem('formInfo'));
+    email.value = email;
+    name.value = name;
+    message.value = message;
+  }
+});
+
+inputsArray.forEach((input) => input.addEventListener('input', (e) => {
+  if (input === name) {
+    name.value = input.value;
+  } else if (input === email) {
+    email.value = input.value;
+
+    // Validate the email input
+    if (e.target.value !== email.value.toLowerCase()) {
+      e.preventDefault();
+      email.parentElement.classList.add('invalidInput');
+    } else {
+      saveFormDataToLocalStorage(name, email, message);
+      email.parentElement.classList.remove('invalidInput');
+    }
+  } else {
+    message.value = input.value;
+  }
+  saveFormDataToLocalStorage(name, email, message);
+}));
